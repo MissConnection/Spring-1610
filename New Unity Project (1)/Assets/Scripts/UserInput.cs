@@ -2,27 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UserInput : Monobehaviour
+public class UserInput : MonoBehaviour
 {
-    public Rigidbody2D bellRigidbody2D;
+    public Rigidbody2D ballRigidbody2D;
     public vector2 direction;
     public vector2 yDirection;
 
-    void Update ()
+    private vector2 direction;
+    private vector2 direction;
+
+    void Update()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            ballRigidbody2D.AddForce(direction.ForceMode2D.Force);
-        }
+        direction.x = Input.GetAxis("Horizontal") * speed;
+        ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
 
-        if (input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetButtonDown("Jump"))
         {
-            ballRigidbody2D.AddForce(-direction.ForceMode2D.Force);
-        }
-
-        if (input.Getkey(Keycode.UpArrow))
-        {
-            ballRigidbody2D.AddForce(ydirection.ForceMode2D.Force);
+            yDirection.y = jumpForce;
+            ballRigidbody2D.AddForce(yDirection, ForceMode2D.Force);
         }
     }
-}
