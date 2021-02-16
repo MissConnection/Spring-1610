@@ -344,10 +344,11 @@ GameObject:
   - component: {fileID: 1451495924}
   - component: {fileID: 1451495923}
   - component: {fileID: 1451495922}
+  - component: {fileID: 1451495927}
   - component: {fileID: 1451495926}
   m_Layer: 0
   m_Name: Wheel
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -599,7 +600,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1451495921}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d4726519ce241145ab6dc5263fe0bdb, type: 3}
+  m_Script: {fileID: 11500000, guid: cd310944473048b40b23e071e54f899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+--- !u!114 &1451495927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451495921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf2a29ab281e164e85a3d6a8689a3b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1965229118
