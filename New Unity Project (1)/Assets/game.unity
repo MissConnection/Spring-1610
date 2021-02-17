@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 1451495927}
   - component: {fileID: 1451495926}
   m_Layer: 0
-  m_Name: Wheel
+  m_Name: Ball
   m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -633,7 +633,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!60 &1965229119
 PolygonCollider2D:

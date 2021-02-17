@@ -1,4 +1,6 @@
-﻿public class synthax
+﻿
+
+public class Syntax
 {
     public int number = 2;
 
