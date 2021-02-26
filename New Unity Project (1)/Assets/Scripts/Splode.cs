@@ -1,15 +1,17 @@
 ﻿// Grenade explodes after a time delay.
-public float fuseTime;
+public float Splode;
 
 void Start()
 {
-    Invoke("Explode", fuseTime);
-}
+    {
+        Invoke("Explode", Splode);
+    }
 
 
 
-// Grenade explodes on impact.
-void OnCollisionEnter(Collision coll)
-{
-    Explode();
+    // Grenade explodes on impact.
+    void OnCollisionEnter(Collision coll)
+    {
+        Explode(ball);
+    }
 }
