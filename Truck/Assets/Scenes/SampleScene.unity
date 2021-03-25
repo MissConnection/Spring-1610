@@ -890,8 +890,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2114023310}
   - component: {fileID: 2114023309}
-  - component: {fileID: 2114023308}
   - component: {fileID: 2114023311}
+  - component: {fileID: 2114023308}
   - component: {fileID: 2114023307}
   m_Layer: 0
   m_Name: head
@@ -910,7 +910,7 @@ WheelJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 0}
+  m_ConnectedRigidBody: {fileID: 1516794654}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
@@ -933,7 +933,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114023306}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
