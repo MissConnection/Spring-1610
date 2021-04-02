@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 902860263}
   - component: {fileID: 902860267}
   - component: {fileID: 902860268}
+  - component: {fileID: 902860269}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -502,6 +503,24 @@ BuoyancyEffector2D:
   m_FlowAngle: 0
   m_FlowMagnitude: 0
   m_FlowVariation: 0
+--- !u!255 &902860269
+FixedJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902860262}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1516794654}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0.017185211, y: 0.46209258}
+  m_DampingRatio: 0
+  m_Frequency: 0
 --- !u!1 &1032084805
 GameObject:
   m_ObjectHideFlags: 0
